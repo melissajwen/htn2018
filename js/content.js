@@ -9,7 +9,7 @@ images[6] = "/parrots/frame_07_delay-0.05s.jpg";
 images[7] = "/parrots/frame_08_delay-0.05s.jpg";
 images[8] = "/parrots/frame_09_delay-0.05s.jpg";
 images[9] = "/parrots/frame_00_delay-0.05s.jpg";
-setInterval(function() {changeImage()},250);
+setInterval(function() {changeImage()},100);
 x = 0;
 function changeImage() {
 document.getElementById('ad').src = images[x];
